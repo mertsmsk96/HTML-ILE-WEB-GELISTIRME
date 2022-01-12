@@ -1,0 +1,103 @@
+/*css dosyası*/
+/*boşlukları sıfırla*/
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#sayfa{
+	width: 900px;
+	min-height: 600px;
+	margin:auto;
+}
+
+#banner{
+	width: 900px;
+	height: 100px;
+	margin: auto;
+	background-color: black;
+}
+#logo{
+	width: 100px;
+	height: 80px;
+	position: relative;
+	top: 10px;
+	left: 10px;
+	float: left;
+}
+
+#logoresim{
+	width: 100px;
+	height: 80px;
+}
+
+#sosyalmedyaicon{
+	width: 180px;
+	height: 40px;
+	position: relative;
+	top: 30px;
+	float: right;
+}
+
+.iconresim{
+	float: left;
+	margin-right: 10px;
+	width: 50px;
+	height: 40px;
+}
+
+#anamenu{
+	width: 900px;
+	height: 40px;
+	background-color: green;
+}
+
+#anamenu ul{
+	list-style-type: none;	
+	text-align: center;
+}
+
+#anamenu ul li{
+	display: inline-block;
+	text-decoration:none;
+	line-height: 30px;
+	padding: 5px;
+	color: white;
+}
+
+#anamenu ul a{
+	font-family: Verdana;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+#anamenu ul li:hover{
+	color:green;
+	background-color: white;
+}
+
+#icerik{
+	width: 600px;
+	min-height: 400px;
+	background-color: gray;
+	float: left;
+}
+
+#yanmenu{
+	width: 300px;
+	min-height: 400px;
+	background-color: green;
+	float: right;
+}
+
+#altmenu{
+	width: 900px;
+	height: 60px;
+	background-color: black;
+	float: left;
+}
+
+.resim{
+	float: left;
+}
